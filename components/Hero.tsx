@@ -23,8 +23,8 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            <span className="w-12 h-[1px] bg-accent"></span>
-            Hello, I'm
+            <span className="w-12 h-px bg-accent"></span>
+            Hello, I&apos;m
           </motion.h2>
           <h1 className="text-6xl md:text-8xl font-bold text-primary tracking-tight leading-none">
             Benjamin <br /> Onyia

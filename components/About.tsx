@@ -21,7 +21,7 @@ export default function About() {
           </h3>
           <div className="space-y-6 text-lg text-primary/80 font-light leading-relaxed">
             <p>
-              I'm Benjamin Onyia, a Fullstack Web Developer with
+              I&apos;m Benjamin Onyia, a Fullstack Web Developer with
               over 6 years of hands-on experience in building digital products
               that scale.
             </p>
@@ -29,11 +29,11 @@ export default function About() {
               My journey started with a curiosity for how things work on the
               web, which quickly evolved into a passion for crafting
               pixel-perfect, accessible, and performant user experiences. I
-              don't just write code, I solve problems through design thinking
+              don&apos;t just write code, I solve problems through design thinking
               and robust engineering.
             </p>
             <p>
-              When I'm not debugging or optimizing render cycles, you can find
+              When I&apos;m not debugging or optimizing render cycles, you can find
               me exploring modern architecture, reading about behavioral
               psychology, or refining my espresso brewing technique.
             </p>
