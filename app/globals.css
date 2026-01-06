@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  /* Portfolio Color Palette */
+  --portfolio-primary: #414a37;
+  --portfolio-accent: #99744a;
+  --portfolio-bg: #dbc2a6;
+
+  --background: var(--portfolio-bg);
+  --foreground: var(--portfolio-primary);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--portfolio-primary);
+  --color-accent: var(--portfolio-accent);
+  --color-neutral-bg: var(--portfolio-bg);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
