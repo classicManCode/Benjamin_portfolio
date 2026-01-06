@@ -87,7 +87,10 @@ export default function Projects() {
             <div className="relative h-48 w-full overflow-hidden shrink-0">
               <Image
                 src={project.image}
-                alt={project.title}
+                alt={`${project.title} - ${project.description.substring(
+                  0,
+                  80
+                )} - Built with ${project.tech.join(", ")}`}
                 fill
                 className="object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
               />

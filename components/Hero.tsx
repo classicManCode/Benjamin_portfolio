@@ -71,7 +71,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-full overflow-hidden border-8 border-white/30 shadow-2xl">
             <Image
               src="/portfolio_image.jpeg"
-              alt="Benjamin Onyia"
+              alt="Benjamin Onyia - Professional Fullstack Web Developer with 6+ years experience in React, Next.js, and Node.js"
               fill
               className="object-cover"
               priority
