@@ -56,7 +56,7 @@ export default function Contact() {
                 type="text"
                 required
                 className="w-full bg-white/50 border border-primary/10 rounded-lg px-4 py-3 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-all text-primary"
-                placeholder="John Doe"
+                placeholder="You gotta tell me who you are..."
                 value={formState.name}
                 onChange={(e) =>
                   setFormState({ ...formState, name: e.target.value })
