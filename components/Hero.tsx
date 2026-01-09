@@ -51,12 +51,13 @@ export default function Hero() {
           >
             View Projects
           </button>
-          <button
-            onClick={() => document.getElementById("contact")?.scrollIntoView()}
-            className="px-8 py-4 border border-primary/20 text-primary rounded-full font-medium hover:bg-white/50 transition-all hover:border-primary"
+          <a
+            href="/B.O_Resume.pdf"
+            download="B.O_Resume.pdf"
+            className="px-8 py-4 border border-primary/20 text-primary rounded-full font-medium hover:bg-white/50 transition-all hover:border-primary text-center"
           >
-            Contact Me
-          </button>
+            Download CV
+          </a>
         </motion.div>
       </motion.div>
 
