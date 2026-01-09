@@ -1,0 +1,19 @@
+{
+  "name": "Benjamin Onyia | Fullstack Web Developer",
+  "short_name": "Benjamin Onyia",
+  "description": "Benjamin Onyia - Fullstack Web Developer with 6+ years experience. Expert in React, Next.js, Node.js, TypeScript, and SEO optimization.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F0",
+  "theme_color": "#1A1A1A",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
