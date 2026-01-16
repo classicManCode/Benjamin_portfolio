@@ -94,6 +94,9 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: "/manifest.json",
+  verification: {
+    google: "br85fb2aKlNnWn1tJMsug--YFxy3wdQjvwM3AK9HT8o",
+  },
 };
 
 export default function RootLayout({
