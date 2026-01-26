@@ -30,7 +30,16 @@ const projects: Project[] = [
     title: "ScanoRepo AI CLI",
     description:
       "A powerful platform for scanning, managing, and organizing your code repositories. Quickly identify issues, track changes, and keep your projects clean and efficient.",
-    tech: ["Next.js", "Tailwind", "TypeScript", "Express", "Vercel", "MongoDB"],
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "TypeScript",
+      "Express",
+      "Node.js",
+      "Vercel",
+      "MongoDB",
+      "Groq API",
+    ],
     link: "https://scano-repo-gui.vercel.app/",
     image: "/project-scanorepo.png",
   },
