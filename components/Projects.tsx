@@ -18,6 +18,24 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
+    title: "Hyperion Watches",
+    description:
+      "A sleek online shop showcasing a curated collection of modern, stylish wristwatches, blending design and precision for every occasion.",
+    tech: ["Next.js", "Tailwind", "TypeScript", "Supabase"],
+    link: "https://hyperion-watches.vercel.app/shop",
+    image: "/project-hyperion.png",
+  },
+  {
+    id: 2,
+    title: "ScanoRepo AI CLI",
+    description:
+      "A powerful platform for scanning, managing, and organizing your code repositories. Quickly identify issues, track changes, and keep your projects clean and efficient.",
+    tech: ["Next.js", "Tailwind", "TypeScript", "Express", "Vercel", "MongoDB"],
+    link: "https://scano-repo-gui.vercel.app/",
+    image: "/project-scanorepo.png",
+  },
+  {
+    id: 3,
     title: "Nootrio Health Food Blog",
     description:
       "A comprehensive health food blog featuring dynamic content, categorization, and a clean reading experience.",
@@ -26,7 +44,7 @@ const projects: Project[] = [
     image: "/project-nootrio.png",
   },
   {
-    id: 2,
+    id: 4,
     title: "Client Management Web App",
     description:
       "A streamlined dashboard for managing client relationships, invoicing, and project tracking.",
@@ -35,7 +53,7 @@ const projects: Project[] = [
     image: "/project-dashboard.png",
   },
   {
-    id: 3,
+    id: 5,
     title: "Random Quotes Generator",
     description:
       "An interactive application that generates inspiring quotes with social sharing capabilities.",
@@ -89,7 +107,7 @@ export default function Projects() {
                 src={project.image}
                 alt={`${project.title} - ${project.description.substring(
                   0,
-                  80
+                  80,
                 )} - Built with ${project.tech.join(", ")}`}
                 fill
                 className="object-cover object-top transform group-hover:scale-110 transition-transform duration-700"
